@@ -19,7 +19,6 @@ jobs:
     outputs:
       SHORT_SHA: ${{ steps.vars.outputs.SHORT_SHA }}
 
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
